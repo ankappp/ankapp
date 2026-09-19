@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankapp - Gizlilik Politikası</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #1e293b;
+            --accent: #2563eb;
+            --text-main: #334155;
+            --text-muted: #64748b;
+            --bg-body: #f8fafc;
+            --bg-card: #ffffff;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .updated-date {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+
+        p, ul {
+            margin-bottom: 16px;
+            color: var(--text-main);
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background-color: #f1f5f9;
+            border-left: 4px solid var(--accent);
+            padding: 16px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 640px) {
+            body { padding: 16px 12px; }
+            .container { padding: 24px 16px; }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Gizlilik Politikası</h1>
+        <p class="updated-date">Son Güncelleme Tarihi: 19 Eylül 2026</p>
+    </header>
+
+    <p><strong>Ankapp</strong> ("Uygulama") olarak, kullanıcılarımızın kişisel verilerinin gizliliğine ve güvenliğine büyük önem veriyoruz. Bu Gizlilik Politikası metni, uygulamamızı kullandığınızda verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamak amacıyla hazırlanmıştır.</p>
+
+    <h2>1. Toplanan Veriler ve Kullanım Amaçları</h2>
+    <p>Uygulamamızın sunduğu hizmetlerden tam anlamıyla faydalanabilmeniz için aşağıdaki veriler işlenebilir:</p>
+    <ul>
+        <li><strong>Konum Bilgileri:</strong> Ankapp, yakınınızdaki mekanları, etkinlikleri ve konum tabanlı içerikleri size sunabilmek amacıyla ön plan ve/veya arka plan konum izni talep edebilir. Konum verileriniz yalnızca uygulama içi deneyimi iyileştirmek için kullanılır.</li>
+        <li><strong>Hesap ve Kimlik Bilgileri:</strong> Giriş yapmanız halinde kullanıcı adı, e-posta adresi gibi bilgileriniz hesabınızı yönetmek ve deneyiminizi kişiselleştirmek için saklanır.</li>
+        <li><strong>Bildirimler ve Cihaz Bilgileri:</strong> Anlık bildirimler gönderebilmek için Firebase Cloud Messaging altyapısı üzerinden cihaz belirteçleri (tokens) kullanılır.</li>
+    </ul>
+
+    <h2>2. Üçüncü Taraf Hizmetler ve Çerezler</h2>
+    <p>Uygulamamız, hizmet kalitesini artırmak, analiz yapmak ve reklam sunmak amacıyla güvenilir üçüncü taraf hizmet sağlayıcıları kullanır:</p>
+    
+    <div class="highlight-box">
+        <p>Uygulamada kullanılan üçüncü taraf servislerin gizlilik politikalarına aşağıdaki bağlantılardan ulaşabilirsiniz:</p>
+        <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Hizmetleri</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Google AdMob (Reklam Hizmetleri)</a></li>
+            <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Firebase (Veritabanı, Analitik ve Bildirimler)</a></li>
+        </ul>
+    </div>
+
+    <h2>3. Reklamlar (Google AdMob)</h2>
+    <p>Ankapp, uygulama içerisinde Google AdMob reklam ağını kullanmaktadır. AdMob, kişiselleştirilmiş veya kişiselleştirilmemiş reklamlar sunabilmek için cihaz kimliklerinizi (Advertising ID) ve çerez benzeri teknolojileri kullanabilir.</p>
+
+    <h2>4. Veri Güvenliği</h2>
+    <p>Verilerinizin güvenliğini sağlamak için endüstri standardı güvenlik önlemleri ve şifreleme protokolleri uygulanmaktadır. Firebase altyapısı sayesinde verileriniz korunan sunucularda saklanır.</p>
+
+    <h2>5. Kullanıcı Hakları ve Veri Silme</h2>
+    <p>Dilediğiniz zaman cihazınızın ayarlar bölümünden konum ve bildirim izinlerini değiştirebilir veya iptal edebilirsiniz. Ayrıca hesabınızın ve verilerinizin silinmesini talep etmek için aşağıdaki iletişim kanallarından bizimle iletişime geçebilirsiniz.</p>
+
+    <h2>6. İletişim</h2>
+    <p>Gizlilik politikamızla ilgili her türlü soru, görüş veya veri silme talebiniz için bizimle iletişime geçebilirsiniz:</p>
+    <p><strong>E-posta:</strong> destek@ankapp.com</p>
+</div>
+
+</body>
+</html>
